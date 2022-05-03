@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Graphic Creator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class='title'>Options</h1>
+    <p>Resolution: </p>
+    <input type="text" id="res">
+    <p>Percentage: </p>
+    <input type="text" id="per">
+    <p>Color: </p>
+    <input type="text" id="color">
+    <p>Text: </p>
+    <input type="text" id="text">
+    <input type="text" id="text2">
+    <p>Text Color: </p>
+    <input type="text" id="textCol">
+    <p>Fill Color: </p>
+    <input type="text" id="fillCol">
+    <p>Background Color: </p>
+    <input type="text" id="bacColor">
+    <br>
+    <input type="button" value="Render" onclick="renderAnimation()">
+    <input type="button" value="Download Gif" onclick="renderGIF()">
+    <hr>
+    <div class='content'>
+
+        <canvas id="canvas"></canvas>
+
+    </div>
+
+    <script type="text/javascript" src="gif.js"></script>
+    <script type="text/javascript" src="gif.worker.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>

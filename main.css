@@ -1,0 +1,12 @@
+body{
+    background: rgb(51, 51, 51);
+    color: lightgray;
+}
+
+h1{
+    color: rgb(64, 127, 182);
+}
+
+p, input{
+    margin:5px
+}
